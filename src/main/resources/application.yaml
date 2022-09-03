@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/tasks
+    password: 123456
+    username: postgres
+
+
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc:  DEBUG
